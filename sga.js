@@ -1,10 +1,9 @@
 import { Graphics } from './Utils/graphics.js'
+var grcs = new Graphics();
 
 export class SGA{
     constructor(){
-        this.graphics = [
-            graphics.rectangle(color, x, y, width, height),
-            graphics.text(string, color, x, y)
-        ]
+        this.graphics = [grcs.rectangle(color, x, y, width, height),
+            grcs.text(string, color, x, y)];
     }
 }
